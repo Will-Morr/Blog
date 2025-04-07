@@ -15,5 +15,5 @@ Project Firefly is a new method of localization using a webcam to calculate the 
 {{<youtube MSs9HHhLadw>}} 
 
 
-##### [GitHub Repo](https://github.com/GarettMorrison/ProjectFirefly)
+##### [GitHub Repo](https://github.com/Will-Morr/ProjectFirefly)
 ##### [Technical Report](/img/ProjectFirefly/FireFly_Technical_Report.pdf)

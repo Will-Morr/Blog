@@ -1,6 +1,6 @@
-baseURL = "https://garettmorrison.net/"
+baseURL = "https://willmorrison.net/"
 languageCode = "en-us"
-title = "Garett Morrison"
+title = "Will Morrison"
 theme = "hello-friend-ng"
 themesDir = "themes/"
 
@@ -40,15 +40,11 @@ paginate     = 10
   # Social icons
   [[params.social]]
     name = "youtube"
-    url  = "https://www.youtube.com/@garettmorrison2609"
+    url  = "https://www.youtube.com/@willmorrison2609"
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/GarettMorrison"
-
-  [[params.social]]
-    name = "mastodon"
-    url  = "https://mastodon.social/@garettm"
+    url  = "https://github.com/willmorrison"
 
   [[params.social]]
     name = "thingiverse"
@@ -56,18 +52,18 @@ paginate     = 10
     
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/in/garett-morrison-666595166"
+    url  = "https://www.linkedin.com/in/will-morrr"
 	
   [[params.social]]
     name = "email"
-    url  = "mailto:garettm123@gmail.com"
+    url  = "mailto:willmorrison159@gmail.com"
 
 
 
 
 [languages]
   [languages.en]
-    title = "Garett Morrison"
+    title = "Will Morrison"
     subtitle = "Personal Blog"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
@@ -75,7 +71,7 @@ paginate     = 10
     sharePostH = "Share Post"
 
     [languages.en.params.logo]
-      logoText = "Garett Morrison"
+      logoText = "Will Morrison"
       logoHomeLink = "/"
     # or
     #

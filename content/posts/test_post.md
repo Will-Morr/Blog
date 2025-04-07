@@ -8,7 +8,7 @@ tags:
 
 THIS IS A TEST! IF YOU ARE ON THE PUBLIC INTERNET YOU SHOULD NOT BE ABLE TO SEE THIS!
 
-If you were not linked to this and found it please email me at garettm123@gmail.com, this should be hosted link-only. 
+If you were not linked to this and found it please email me at willmorrison159@gmail.com, this should be hosted link-only. 
 
 {{< rawhtml >}}
 	<blockquote class="imgur-embed-pub" lang="en" data-id="a/nY0wTjr"  ><a href="//imgur.com/a/nY0wTjr">Artsy Laser Engraving</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>

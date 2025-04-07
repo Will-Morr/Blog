@@ -32,4 +32,4 @@ On this example sequence, each measure is divided into 15 individual beats. Thes
 
 The code is all available on Github. When I started working on this I was not expecting it to get quite this out of hand, so the code is a messy pile of patches and loop. I'd eventually like to circle back and make it more usable, but I figured I'd share what I have rather than not at all. 
 
-#### [GitHub Repo](https://github.com/GarettMorrison/Procedural_MIDI)
+#### [GitHub Repo](https://github.com/Will-Morr/Procedural_MIDI)

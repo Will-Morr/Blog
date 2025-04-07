@@ -14,4 +14,4 @@ I recently finished my DECtalk Choir project, which (mis)uses a text to speech s
 {{<youtube oPg8LVGdd4I>}} 
 
 
-##### [GitHub Repo](https://github.com/GarettMorrison/DECTALK_Choir)
+##### [GitHub Repo](https://github.com/willmorrison/DECTALK_Choir)

@@ -81,7 +81,7 @@ I started by taking a picture of my bike from several yards away to get an appro
 	<div class="columnRight">
 		</br>
 		</br>
-		Overall, this wound up being a super interesting and fun project, as much of a pain as some of the implementation was. All the code is available on <a href="https://github.com/GarettMorrison/LED_Mapping">Github</a>. The Python portion includes an example and should be usable out of the box for anyone looking to solve the same problem. Please let me know if you do; I wasn't able to find an existing project doing this and would love to see what other people can make. I may return to this project and improve the animations, particulary the color selection, but for now I'm quite proud of how cohesive and clean it came out.
+		Overall, this wound up being a super interesting and fun project, as much of a pain as some of the implementation was. All the code is available on <a href="https://github.com/Will-Morr/LED_Mapping">Github</a>. The Python portion includes an example and should be usable out of the box for anyone looking to solve the same problem. Please let me know if you do; I wasn't able to find an existing project doing this and would love to see what other people can make. I may return to this project and improve the animations, particulary the color selection, but for now I'm quite proud of how cohesive and clean it came out.
 	</div>
 </div>
 {{< /rawhtml >}}

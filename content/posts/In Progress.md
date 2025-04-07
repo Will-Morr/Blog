@@ -45,7 +45,7 @@ I am fascinated by emergent behavior in systems, and frequently program simulati
 
 {{<NiceLine>}}
 ### AutoLisp_Tools
-UCP, the software I use to run the laser cutter, has a weird quirk where if you send it polylines, a type of AutoCAD object, it cuts at a small but unpredictable fraction of the speed it is set to. This is especially fun when handling student requests, as most image conversion software outputs exclusively polylines. I eventually got so frustrated with this that I spent a week teaching myself Lisp and AutoCADs command API, and then wrote a suite of tools to convert various linetypes into line segments. This culminated in a single command reducing the cut time of polylines parts by 75%, saving hours. [Github](https://github.com/GarettMorrison/AutoCode/tree/main/AutoLisp_Tools)
+UCP, the software I use to run the laser cutter, has a weird quirk where if you send it polylines, a type of AutoCAD object, it cuts at a small but unpredictable fraction of the speed it is set to. This is especially fun when handling student requests, as most image conversion software outputs exclusively polylines. I eventually got so frustrated with this that I spent a week teaching myself Lisp and AutoCADs command API, and then wrote a suite of tools to convert various linetypes into line segments. This culminated in a single command reducing the cut time of polylines parts by 75%, saving hours. [Github](https://github.com/Will-Morr/AutoCode/tree/main/AutoLisp_Tools)
 
 
 
@@ -76,7 +76,7 @@ UCP, the software I use to run the laser cutter, has a weird quirk where if you 
 
 {{< /rawhtml >}}
 
-[Github](https://github.com/GarettMorrison/AutoCode/tree/main/ImageConv)  
+[Github](https://github.com/Will-Morr/AutoCode/tree/main/ImageConv)  
 [Gallery](https://imgur.com/gallery/nY0wTjr)
 
 
