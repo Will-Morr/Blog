@@ -10,7 +10,7 @@ tags:
 ---
 
 
-{{<image src="/img/ClickOrgan/OnDesk_3.jpg" alt="Freshly glued click wheel organ" position="center" style="border-radius: 8px; width:75%" >}}
+{{<figure src="/img/ClickOrgan/OnDesk_3.jpg" alt="Freshly glued click wheel organ" position="center" style="border-radius: 8px; width:75%" >}}
 
 
 In high school I took a pile of rubber bands and foam board and built something vaguely resembling a guitar. It was impossible to tune, broke if you looked at it wrong, and launched a years-long obsession with instrument design that continues to date. Recently, I have been experimenting with different sound mechanisms, trying to tune anything that makes noise. 
@@ -18,7 +18,7 @@ In high school I took a pile of rubber bands and foam board and built something 
 The range of sound mechanisms used in instruments is immense and much wider than I realized when I started, but a surprisingly large number of them can be made using PVC, wood, plastic bags, or tin-can reeds. Unfortunately, the gap between noise maker and musical instrument is wide, and my pile of out tune prototypes continued to grow. Nothing would stay in tune, until I started experimenting with click-wheels.  
 
 
-{{<image src="/img/ClickOrgan/DownLength.png" alt="Python-generated wheels" position="center" style="border-radius: 8px; width:50%" >}}
+{{<figure src="/img/ClickOrgan/DownLength.png" alt="Python-generated wheels" position="center" style="border-radius: 8px; width:50%" >}}
 
 
 <!-- The largest challenge stemmed from the inconsistency in the mechanisms. I could play at least one note with most of my prototypes, but getting that to change precisely and reliably proved extremely difficult. Wind instruments are extremely finicky and require extensive practice even with a professionally made instrument, and although strings are much easier to work with every build kept looking and sounding like a messed up guitar.  -->
@@ -33,11 +33,11 @@ After my third prototype worked, playing a 6-note pentatonic scale, I knew I had
 
 As I have little patience working on anything remotely automatable, I wrote a Python script to automatically generate the wheels, converting a list of tooth counts and note names to a set of labeled, laser-ready polygons. As higher pitches are perceived as louder with the same amplitude, the larger wheels are cut with smaller teeth, equalizing the volume and allowing each wheel to have the same radius. 
 
-{{<image src="/img/ClickOrgan/GenCAD.png" alt="Python-generated wheels" position="center" style="border-radius: 8px; width:90%" >}}
+{{<figure src="/img/ClickOrgan/GenCAD.png" alt="Python-generated wheels" position="center" style="border-radius: 8px; width:90%" >}}
 
 Another interesting problem was selecting a starting spike count. Each of the twelve notes in an octave has a specific ratio relating its frequency to the base frequency, but these are fractions. The spike counts must be whole numbers, as you can't make a symmetrical wheel with an extra half spike. I decided to tune it to C, as just intonation has cleaner ratios, and started spreadsheeting. I wrote an error function for a given starting count, summing the difference between each ratio and it's closest approximation, and got the following graph:
 
-{{<image src="/img/ClickOrgan/ErrorPlot.png" alt="Python-generated wheels" position="center" style="border-radius: 8px; width:80%" >}}
+{{<figure src="/img/ClickOrgan/ErrorPlot.png" alt="Python-generated wheels" position="center" style="border-radius: 8px; width:80%" >}}
 
 As you can see, 120 is a clear outlier. There are technically better approximations with much larger wheels, but 120 spikes strikes a lovely balance between size and accuracy. If anyone else is considering making a click-wheel organ, I would recommend using equal intervals instead to play in multiple keys. The following are my calculated spike counts for each note. 
 

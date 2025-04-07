@@ -18,7 +18,7 @@ It's honestly much more musical than I expected for not having any pre-programme
 
 The chord progression is pre-programmed, as I was mostly interested in melody generation. Each beat, the lead melody has a chance to start playing any note in the current scale. There's a ton of math for the odds of playing each note, as technically every note has some chance of playing. The weighting primarily makes the melody more likely to move on downbeats, play notes which don't clash, and follow a similar motion and structure to the last measure.
 
-{{<image src="/img/ProceduralMIDI/ExamplePlot.png" alt="Example Plot" position="center" style="border-radius: 8px; width:60%" >}}
+{{<figure src="/img/ProceduralMIDI/ExamplePlot.png" alt="Example Plot" position="center" style="border-radius: 8px; width:60%" >}}
 
 Info about recent notes is displayed in real time. The right plot displays recent MIDI notes and durations for each voice. The left plot displays the weighted distribution used to select the note most recently played on Lead. In this screenshot, we can see a clear spike at the selected position, indicating that it was the most likely selection, although any note in the current scale could have been played. 
 
@@ -26,7 +26,7 @@ Every 8 measures, a number of configuration variables are modified. This creates
 
 The bass and alto voices also randomly cycle through several different settings . These specify the algorithm for note pitch and timing, reading the beat division, chord position, and lead voice to select notes. Finally, two threshold values are tweaked for the lead and alto voices. These change the threshold required for a note to play, varying how frequently notes play and move.
 
-{{<image src="/img/ProceduralMIDI/ExampleSequence.png" alt="Example Sequence" position="center" style="border-radius: 8px; width:75%" >}}
+{{<figure src="/img/ProceduralMIDI/ExampleSequence.png" alt="Example Sequence" position="center" style="border-radius: 8px; width:75%" >}}
 
 On this example sequence, each measure is divided into 15 individual beats. These are then split into groups of 3. In traditional music theory, this is identical to triplets in 5/4. These do not have to be evenly divided, and can create some really interesting patterns.
 

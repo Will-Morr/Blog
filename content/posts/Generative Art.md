@@ -15,7 +15,7 @@ About a year ago, I decided to take a crack at procedurally generated art. I had
 {{<NiceLine>}}
 
 ### Dot Map
-{{< image src="/img/GenArt/starry_dot.jpg" alt="Starry Night in Dots" position="center" style="border-radius: 8px; width: 50%;">}}
+{{< figure src="/img/GenArt/starry_dot.jpg" alt="Starry Night in Dots" position="center" style="border-radius: 8px; width: 50%;">}}
 
 My first attempt was a simple 
 
