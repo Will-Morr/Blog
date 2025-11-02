@@ -1,7 +1,7 @@
 ---
 title: "Simulating Evolution"
 date: 2023-01-20
-draft: true
+draft: false
 ---
 
 When I was a kid, the Boston Museum of Science launched a simulated aquarium exhibit. Visitors could design a custom fish using a handful of sliders and release it into the tank. They would float around, eat, and eventually die or leave. Despite the simplicity, I was immediately obsessed. 
@@ -15,7 +15,7 @@ My first real programming project was a simple cell-life simulation. I started w
 The map is randomly generated. Land masses are placed on a large ocean and surrounding with shallow water, and the eastern edge of the map is covered in tundra. Algae is randomly scattered across the map,  Individuals can inherit a variety of traits from their parents, with occasional mutation. Traits include different types of mobility (land & sea) and consumption (algae or predation)
 
 
-[LifeSim Link](http://localhost:1313/js/LifeSim/simulation.html) 
+[LifeSim Link](/js/LifeSim/simulation.html)
 
 
 
@@ -46,9 +46,5 @@ I am fascinated by emergent behavior in systems, and frequently program simulati
 </div>
 </br>
 {{< /rawhtml >}}
-
-
-#### 2022
-### EvoSim
 
 
