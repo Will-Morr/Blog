@@ -169,6 +169,18 @@ figure {
   }
 }
 
+figure.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure.center img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 em, i, strong {
   color: black;
 

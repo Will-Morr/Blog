@@ -16,7 +16,7 @@ A random conversation on my train commute last summer introduced me to bike part
 
 The first major design challenge in becoming the worlds most visible cyclist was syncing the LEDs to music. I opted to go with an input click, simply tapping a limit switch in time with the beat. The Arduino reads these inputs and, over time, calculates the tempo of the music and when the downbeat is. I also wired up a grid of six other buttons and a potentiometer, to allow you to select a light pattern and color scheme on the fly, and mounted the whole controller on my handlebars.
 
-{{<figure src="/img/RaveBike/ControlPanel.png" alt="Control panel" position="center" style="border-radius: 8px; width:75%" >}}
+{{<figure src="/img/RaveBike/ControlPanel.png" alt="Control panel" class="center" style="border-radius: 8px; width:75%" >}}
 
 The next challenge was actually implementing the LED patterns. Because LED strips are programmed linearly there isn't an easy way for the LED controller to know where the lights are placed, and most displays just play a repeating pattern which runs down the length of the strip. I really wanted to have two-dimensional patterns that used the side of the bike as a 2D display, but this was going to require some creative processing. 
 
@@ -76,7 +76,7 @@ I started by taking a picture of my bike from several yards away to get an appro
 {{< rawhtml >}}
 <div class="row">
 	<div class="columnLeft">
-		<img src="/img/RaveBike/SelfieOnBike.png" alt="Picture from event" position="center" style="border-radius: 8px; width:97%">
+		<img src="/img/RaveBike/SelfieOnBike.png" alt="Picture from event" class="center" style="border-radius: 8px; width:97%">
 	</div>
 	<div class="columnRight">
 		</br>
