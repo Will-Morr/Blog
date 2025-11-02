@@ -85,6 +85,3 @@ I started by taking a picture of my bike from several yards away to get an appro
 	</div>
 </div>
 {{< /rawhtml >}}
-
-
-{{<figure >}}
