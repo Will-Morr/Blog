@@ -40,11 +40,11 @@ paginate     = 10
   # Social icons
   [[params.social]]
     name = "youtube"
-    url  = "https://www.youtube.com/@willmorrison2609"
+    url  = "https://www.youtube.com/@willmorr"
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/willmorrison"
+    url  = "https://github.com/will-morr"
 
   [[params.social]]
     name = "thingiverse"
